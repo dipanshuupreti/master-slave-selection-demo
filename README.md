@@ -12,7 +12,7 @@
     -gradle
 
 ## How to run - 
-    Run multiple instance of this application. If you are running on local machine then run on different port.
+    Run multiple instances of this application. If you are running on local machine then run on different port.
       - Application port is configured in application.properties->server.port
 
     When you run the application for the first time then a Persistent ZK node(parent node) with name "master-slave-selection-demo" will be created with watch enabled.
