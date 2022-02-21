@@ -23,7 +23,7 @@
      -To verify connect to zkcli and execute  - [zk: localhost:2181(CONNECTED) 0] ls / , you will get the list of all child nodes, which will be in
        "master-slave-selection-demo_<10 digit sequence number>" format.
     
-      -output - [master-slave-selection-demo_0000000001.........]
+      -output - [master-slave-selection-demo_0000000000.........]
 
     Ephemeral znode are alive until the client is alive.Therefore, when the client gets a disconnect from the zookeeper, it will also be deleted.
     Any change parent node space - child node(Ephemeral znode) addition/deletion will be notified to all the running instance and there will leader
