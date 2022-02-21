@@ -12,7 +12,7 @@
     -gradle
 
 ## How to run - 
-    Run the multiple instance of this application. If you are running on local machine then run on different port.
+    Run multiple instance of this application. If you are running on local machine then run on different port.
       - Application port is configured in application.properties->server.port
 
     When you run the application for the first time then a Persistent ZK node(parent node) with name "master-slave-selection-demo" will be created with watch enabled.
@@ -31,5 +31,5 @@
 
 
 ## How to verify-
-    The instance having Ephemeral znode with lowest sequence number will be the master and would run the scheduler to perfrom action
+    The instance having Ephemeral znode with lowest sequence number will be the master and would run the scheduler to perform action
     you can check for this log statement in logs - "I am the master, will do the action"
